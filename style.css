@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+}
+
+.header {
+	text-align: center;
+	background-color:#FFBA84
+	
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 15px;
+}
+
+@media screen and (max-width:600px) {
+	.column {
+		width: 100%;
+	}
+}
